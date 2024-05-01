@@ -1,0 +1,35 @@
+1.Constractor name & class name must be always same.It can't return type or void.
+2.Can not Initialization to the another class for Private variable .It can be possible when only use the method of Friend Class.
+3.Use to Encapsulation or (Setvalue & Getvalue function) Declarted Private variable Main function to the class.
+4.There are two kind of Plymorphism , These - (i) Overlodding (ii) Overridding
+i) Overlodding means it work in the only one class. It is Function name must be same but peramitter list always diffreance. 
+ii) Overriding means- It work in more then one class. It is Function name and perametter list must be always same.
+5.Destractor & Constractor approximately same but it has only one diffreance this is use the ~ sign in the font side of the constractor.
+6.Get String input in the C++ language use to getline() function.
+7.when use to File in the c++ meddle level language then must be declared <fstream> hedder file.
+8.For Read from the File must be use ifstream keyword.
+9.For Write in the File must be use ofstream keyword.
+10.For apparend in the file use to this method (ios::out|ios::app).
+11.There are five kinds of Inheritance these- 
+					  i) Single Inheritance.Ex-one supper class and one sub class.
+					 ii) Multilevel Inhetitance.Ex-supper class to sup class to new supper to new sub class. 
+					iii) Hyrarchical Inheritance.Ex-One Supper class and more then one Sub class.
+					 iv) Multiple Inheritance.Ex-More then one Supper class and only one sub class.
+					  v) Hybrite Inheritance.Ex-Mixed more then one Inheritance.
+12.abstrator class or pure class must be use this method (public: void 'function name'()=0).This class can't declared object must be use pointer (*p).
+13.When use the showpoint,noshowpoint,fixed,setprecision() library function must be include <iomanip> header file in c++ language. 
+14.Can't Copy Constructor to the another class for plymorphism. It can be solve use this method-
+				subclass name(int dim1,int dim2)
+				:super class name(dim1,dim2)
+				{
+
+				}
+
+15.Constant variable of class when do't directly initialize then use this method-
+							int variable1,variable2;
+							constructor/Function name(int variable name 1,int variable name 2)
+							:variable1(variable name 1),variable2(variable name 2)
+							{
+									
+							}
+							

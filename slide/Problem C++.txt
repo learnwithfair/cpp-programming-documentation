@@ -1,0 +1,9 @@
+1.How to File character wise read & Write ?
+2.How to get string input for more then one in the loop ?//cin.ignore();
+3.What do mean Iostream header file in the C++ language ?
+4.How to use more then one return type ?String dis()
+{
+	-----
+}
+5.How to use Template return type for more variable (string ,int, double) ?
+6.How to string (c) return ?
